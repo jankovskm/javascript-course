@@ -2,7 +2,7 @@ let number1 = 10;
 let numebr2 = 3;
 let operation = "*";
 
-if(numebr2 == 0){
+if(numebr2 === 0 && operation === "/"){
     console.log('fatal error ---division by 0');
 }else{
     let calc;
