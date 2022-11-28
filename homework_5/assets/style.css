@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(207, 204, 204);
+}
+
+#profile_card{
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    max-width: 40%;
+    height: 800px;
+    text-align: center;
+    flex-direction: column; 
+    padding-top: 100px;
+}
+
+#photo{
+    display: flex;
+    justify-content: center;
+}
+
+#photo img{
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 70px;
+}
+
+p{
+    opacity: 0.4;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#buttons{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+
+button{
+    margin: 20px;
+    font-size: 20px;
+    padding: 20px 55px;
+    text-align: center;
+    border: none;
+    border-radius: 10%;
+}
+
+#buttons #msg{
+    background-color: rgb(207, 204, 204);
+    letter-spacing: 0.6px;
+}
+
+#buttons #flw{
+    background-color: rgb(40, 40, 211);
+    color: #fff;
+    letter-spacing: 0.6px;
+}
