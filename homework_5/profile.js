@@ -5,8 +5,6 @@ async function getUser(){
     }
     const res =  await response.json();
     createProfile(res);
-    //but the above stops eecution of all code bellow
-    //instead with 'then' it will not wait just execute once it's ready
 }
 
 
